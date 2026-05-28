@@ -1,0 +1,12 @@
+PyQt5>=5.15
+pynput>=1.7
+cryptography>=42.0
+psutil>=5.9
+nvidia-ml-py>=12.0
+pywin32
+# PyQt5: core GUI dependency.
+# pynput: global keyboard/mouse statistics and hotkeys.
+# cryptography: API key encrypted storage (AES-128 Fernet).
+# psutil: game mode performance monitoring (CPU/memory/battery).
+# nvidia-ml-py: game mode GPU usage and temperature monitoring (NVIDIA GPU optional).
+# pywin32: window pin manager and Windows API integration.

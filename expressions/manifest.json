@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "expressions": [
+    "idle",
+    "happy",
+    "sad",
+    "sleepy",
+    "surprised",
+    "blink",
+    "pout",
+    "dizzy",
+    "drink",
+    "eye_mask",
+    "angry",
+    "nervous",
+    "question",
+    "satisfied",
+    "sporty",
+    "overheat",
+    "cold",
+    "deep_sleep",
+    "quiet",
+    "cool",
+    "birthday",
+    "ghost",
+    "cat_face_idle",
+    "cat"
+  ]
+}

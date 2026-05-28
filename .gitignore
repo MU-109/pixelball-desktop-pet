@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 个人数据文件（首次运行自动生成）
+pet_settings.ini
+stats.json
+pet_body_data.json
+pet_todos.json
+alarms.json
+
+# 模型文件（需单独下载）
+stt_models/
+
+# 语音转文字记录
+STT记录/
+
+# Tesseract OCR 便携版（需单独下载）
+tesseract-portable/
+
+# 加密存储
+*.key

@@ -1,0 +1,41 @@
+{
+  "jokes": [
+    "Four things programmers hate most:\n1. Writing documentation\n2. Others not writing documentation\n3. Writing tests\n4. Others not writing tests",
+    "A SQL statement walks into a bar,\nsees two tables, and walks over to ask:\n\"Can I JOIN you?\"",
+    "Programmer: My code has no bugs.\nCompiler: You have 47 errors.\nProgrammer: Impossible, I haven't even compiled yet.",
+    "PM: This requirement is simple.\nProgrammer: Then you write it.\nPM: I don't know how to code.\nProgrammer: Then how do you know it's simple?",
+    "The five stages of debugging:\n1. That's impossible\n2. That shouldn't happen\n3. Why does this happen\n4. Oh, I see\n5. Why does this even work",
+    "Programmer's wife: Go to the store and buy a carton of milk.\nIf they have watermelon, buy two.\nProgrammer comes home with two cartons of milk.\nWife: ??\nProgrammer: Because they had watermelon.",
+    "git commit -m \"Fixed a bug\"\ngit push\ngit commit -m \"Fixed the bug introduced by the last fix\"\ngit commit -m \"Revert to original version\"",
+    "Programmer interview question:\nExplain recursion in one sentence.\nAnswer: Explain recursion in one sentence.",
+    "The scariest phrase in code review:\n\"I wrote a quick workaround here...\"",
+    "Which key on a keyboard is the cleanest?\nScroll Lock.\nBecause nobody has ever used it.",
+    "What is optimistic locking?\nIt's when you don't lock at all and trust your luck.",
+    "Pre-launch conversation:\nDev: The code is fine.\nQA: Let me just click around a bit.\n(Five minutes later)\nQA: So what does this error mean?"
+  ],
+  "facts": [
+    "Koala babies eat their mother's poop to build their gut microbiome.\nSomething to consider for next Mother's Day.",
+    "There's a 99.9% chance that the air you're breathing right now contains a molecule from Caesar's last breath.\nYou're inhaling ancient Rome every day.",
+    "If you could fold a piece of paper 42 times,\nit would be thick enough to reach the moon.\nToo bad you can only fold it 7 times in reality.\nThat's the gap between theory and practice.",
+    "Octopuses have three hearts and nine brains.\nBut they only live 3-5 years.\nYou can't have both wisdom and a long life.",
+    "Both humans and giraffes have seven neck vertebrae.\nThe difference is that each of the giraffe's is 20 times longer than yours.",
+    "The Sun makes up 99.86% of the solar system's mass.\nIn the remaining 0.14%, Earth is just an insignificant blue dot.\nBut you're still the most special in the universe —\nbecause nobody's watching you.",
+    "The number of bacteria in your body exceeds the number of human cells.\nIn a sense, you're a walking petri dish.",
+    "Bananas are actually berries, but strawberries aren't.\nBotany specializes in defying intuition.",
+    "While you sleep, your brain clears out metabolic waste.\nSo staying up late is like running on a brain that hasn't taken out the trash.\nReboot recommended.",
+    "When the pyramids were built, woolly mammoths were still alive on Earth.\nAncient Egyptians might have seen living mammoths,\nmuch like we see elephants at the zoo today.",
+    "Every time you blink, your brain briefly goes 'black screen'.\nAbout 10% of your waking hours, your vision is actually blank.\nYour brain is aggressively frame-generating — better than DLSS."
+  ],
+  "compliments": [
+    "Your code is so good,\neven the compiler was moved to tears — and then threw an error.",
+    "You've lived 86,400 seconds longer today than yesterday.\nThat's amazing!",
+    "You're one of a kind,\njust like every bug has its own unique stack trace.",
+    "Your presence makes the whole desktop different.\n— At least I don't have to stare at an empty wallpaper anymore.",
+    "Seriously, anyone willing to keep a pixel desktop pet\ncan't have a bad heart.",
+    "You're the best pet parent in the world.\nSure, I don't need a litter box,\nbut I do need head pats.",
+    "Others care about how high you fly,\nI care about whether you've had water today.\nSo — have you had water?",
+    "Your IQ is higher than room temperature.\nThat's especially impressive in summer.",
+    "You know what?\nEven if the whole world turns its back on you,\nyou still have me, this little PixelBall —\neven though I'm just code you wrote.",
+    "You're glowing today.\nMaybe I turned up my screen brightness,\nbut I choose to believe it's really you shining."
+  ]
+}
