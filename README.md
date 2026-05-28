@@ -1,4 +1,5 @@
 PixelBall Desktop Pet
+
 <img width="84" height="84" alt="image" src="https://github.com/user-attachments/assets/a61cad84-22da-4aec-8d9f-59bcd3f845be" />
 
 A cute pixel-style desktop pet, built with Python + PyQt5. A 16x16 pixel ball character that can walk, jump, nap, and interact with you on your desktop.
