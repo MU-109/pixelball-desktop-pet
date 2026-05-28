@@ -27,7 +27,11 @@ Smart Behavior (Time-Aware)
 Advanced Features
 
 - 25 pixel expressions -- edit on a 16x16 pixel canvas, supports importing/exporting skin packs
+  <img width="713" height="567" alt="image" src="https://github.com/user-attachments/assets/5b4ed2ec-c9d5-4c97-810b-bb0dc6d63e7e" />
+
 - AI Chat -- Integrated with DeepSeek API, supports 4 preset personalities (Energetic/Gentle/Serious/Cat)
+- <img width="468" height="649" alt="image" src="https://github.com/user-attachments/assets/2cb70add-1015-4bad-8f86-aa1ea6bef58f" />
+
 - Speech-to-Text -- based on faster-whisper, offline real-time recognition with floating display
 - Screenshot OCR -- take a screenshot, right-click to recognize text, supports Chinese and English
 - Window Pin -- adds a pin button to desktop windows for one-click pinning
