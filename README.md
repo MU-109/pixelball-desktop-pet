@@ -1,4 +1,4 @@
-PixelBall Desktop Pet
+# PixelBall Desktop Pet
 
 <img width="84" height="84" alt="image" src="https://github.com/user-attachments/assets/a61cad84-22da-4aec-8d9f-59bcd3f845be" />
 
@@ -6,9 +6,9 @@ A cute pixel-style desktop pet, built with Python + PyQt5. A 16x16 pixel ball ch
 
 A fun toy project, no longer actively maintained. Feel free to fork and mod!
 
-Features
+## Features
 
-Basic Interaction
+### Basic Interaction
 
 - Left-click: Bounce + happy expression; pop the bubble to wake when napping
 - Double-click: Quick chat menu (time, weather, AI chat, jokes, tools, etc.)
@@ -17,21 +17,19 @@ Basic Interaction
 - Hover for 1 second: Show Todo list panel
 - Drag text: Select text and drag onto the pet -> Bing search
 
-Smart Behavior (Time-Aware)
+### Smart Behavior (Time-Aware)
 
 - Morning 6:00-12:00: Active (walk 35%, sleep only 5%)
 - Afternoon 12:00-18:00: Most active (bounce 20%, walk 35%)
 - Evening 18:00-22:00: Calming down (idle 45%, sleep 15%)
 - Late night 22:00-6:00: Sleepy (sleep 40%, walk only 15%)
 
-Advanced Features
+### Advanced Features
 
 - 25 pixel expressions -- edit on a 16x16 pixel canvas, supports importing/exporting skin packs
   <img width="713" height="567" alt="image" src="https://github.com/user-attachments/assets/5b4ed2ec-c9d5-4c97-810b-bb0dc6d63e7e" />
 
 - AI Chat -- Integrated with DeepSeek API, supports 4 preset personalities (Energetic/Gentle/Serious/Cat)
-- <img width="468" height="649" alt="image" src="https://github.com/user-attachments/assets/2cb70add-1015-4bad-8f86-aa1ea6bef58f" />
-
 - Speech-to-Text -- based on faster-whisper, offline real-time recognition with floating display
 - Screenshot OCR -- take a screenshot, right-click to recognize text, supports Chinese and English
 - Window Pin -- adds a pin button to desktop windows for one-click pinning
@@ -42,29 +40,29 @@ Advanced Features
 - Todo Management -- supports due dates, auto-announce on startup
 - Plugin System -- Extensible architecture based on abstract base classes
 
-Quick Start
+## Quick Start
 
-Prerequisites
+### Prerequisites
 
 - Windows 10/11
 - Python 3.10+
 
-Installation & Running
+## Installation & Running
 
-1. Clone the repository
+### 1. Clone the repository
 
    git clone https://github.com/MU-109/pixelball-desktop-pet.git
    cd pixelball-desktop-pet
 
-2. Install dependencies
+### 2. Install dependencies
 
    pip install -r requirements.txt
 
-3. (Optional) Copy the configuration template
+### 3. (Optional) Copy the configuration template
 
    copy pet_settings.example.ini pet_settings.ini
 
-4. Launch
+### 4. Launch
 
    python main.py
 
@@ -72,13 +70,13 @@ Installation & Running
 
    python main.py --passthrough
 
-Optional Modules
+### Optional Modules
 
 - Speech-to-Text: requires additional installation of faster-whisper + model files, run python download_model.py to download
 - OCR: Requires Tesseract portable version, place it in the tesseract-portable directory
 - GPU Monitoring: NVIDIA GPUs require additional installation of nvidia-ml-py
 
-Tech Stack
+### Tech Stack
 
 - Language: Python 3.10+
 - GUI Framework: PyQt5
@@ -89,7 +87,7 @@ Tech Stack
 - Speech Recognition: faster-whisper base model (offline)
 - OCR: Tesseract + pytesseract
 
-Project Structure
+## Project Structure
 
     main.py                 Entry point
     pet_app.py              App management (QApplication, system tray, plugin loading)
@@ -122,19 +120,19 @@ The program automatically generates the following files on first run:
     stats.json              Keyboard/mouse stats
     pet_body_data.json      Weight records
 
-AI Chat Configuration
+## AI Chat Configuration
 
 1. Right-click the pet -> AI Settings -> Configure API
-2. Enter DeepSeek API URL and API Key (or any OpenAI-compatible service)
+2. Enter DeepSeek API URL and API Key (or any OpenAI-compatible service)(Because the author is a student, only the API capabilities of DeepSeek have been verified so far...)
 3. The API Key is encrypted and stored using AES-128
 
 Get a DeepSeek API Key: platform.deepseek.com
 
-Custom Expressions
+## Custom Expressions
 
 Right-click the pet -> Switch Expression -> Manage Expressions -> Open the 16x16 pixel canvas editor, draw and save. Also supports importing/exporting .petpack skin packs.
 
-Writing Plugins
+## Writing Plugins
 
 Create a .py file in the plugins directory, inheriting from PetPlugin:
 
@@ -154,13 +152,13 @@ Create a .py file in the plugins directory, inheriting from PetPlugin:
         def on_click(self, event):
             pet.set_expression("happy")
 
-Known Limitations
+## Known Limitations
 
 - Windows only (extensive win32 API usage)
 - Speech-to-text requires downloading model files (~150MB)
 - OCR requires Tesseract portable (not included in the repository)
 
-License
+## License
 
 MIT License -- see LICENSE file for details
 
