@@ -70,13 +70,13 @@ A fun toy project, no longer actively maintained. Feel free to fork and mod!
 
    python main.py --passthrough
 
-### Optional Modules
+## Optional Modules
 
 - Speech-to-Text: requires additional installation of faster-whisper + model files, run python download_model.py to download
 - OCR: Requires Tesseract portable version, place it in the tesseract-portable directory
 - GPU Monitoring: NVIDIA GPUs require additional installation of nvidia-ml-py
 
-### Tech Stack
+## Tech Stack
 
 - Language: Python 3.10+
 - GUI Framework: PyQt5
